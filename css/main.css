@@ -1,0 +1,113 @@
+.error {
+  color: red
+}
+
+.container {
+  align-content: center;
+  text-align: left;
+  margin: auto;
+  width: 50%;
+  border: 5px solid black;
+  padding: 10px;
+  background-color: rgba(136, 136, 136, 0.5);
+  font-family: 'Open Sans', sans-serif;
+}
+.teksti {
+
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.kav-teksti {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.js-boksi:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Btn {
+  background-color: black;
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 80px;
+  color: #fff;
+  padding: 12px;
+  font-style: italic;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.grid-boksi {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
